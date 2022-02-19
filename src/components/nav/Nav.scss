@@ -1,0 +1,17 @@
+.nav {
+    height: 60px;
+
+    &-logo{
+        width: 28px;
+        height: 17px;
+        margin-top: 8px;
+    }
+
+    &-menu {
+        width: 30px;
+        height: 30px;
+    }
+    &-hamburger {
+        height: 3px;
+    }
+}
