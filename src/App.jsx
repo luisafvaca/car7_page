@@ -8,6 +8,7 @@ import './App.css';
 function App() {
   return (
     <div className="App w-full">
+      hello
       <Nav />
       <Hero />
       <Services />
