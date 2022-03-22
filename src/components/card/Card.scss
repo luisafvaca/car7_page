@@ -1,3 +1,9 @@
 .card {
-    height: 237px
+    height: 107px;
+
+    &-icon-container {
+        width: 36px;
+        height: 36px;
+        background: rgba(102, 121, 246, 0.25);
+    }
 }

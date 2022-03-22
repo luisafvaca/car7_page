@@ -1,4 +1,9 @@
 module.exports = {
+  variants: {
+    // ...
+     margin: ['hover'],
+     margin: ['responsive', 'hover'],
+  },
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
@@ -38,7 +43,30 @@ module.exports = {
     },
     backgroundColor: theme => ({ ...theme('colors')}),
     extend: {
-     
+      padding: {
+        'cr-4': '.4rem',
+        'cr-8': '.8rem',
+        'cr-12': '1.2rem',
+        'cr-16': '1.6rem',
+        'cr-24': '2.4rem',
+        'cr-32': '3.2rem',
+        'cr-40': '4rem',
+        'cr-48': '4.8rem',
+        'cr-64': '6.4rem',
+      },
+      margin: {
+        'cr-34': '-3.4rem',
+        'cr-4': '.4rem',
+        'cr-8': '.8rem',
+        'cr-12': '1.2rem',
+        'cr-16': '1.6rem',
+        'cr-24': '2.4rem',
+        'cr-32': '3.2rem',
+        'cr-40': '4rem',
+        'cr-48': '4.8rem',
+        'cr-64': '6.4rem',
+        'cr-72': '7.2rem',
+      },
     },
   },
   plugins: [],

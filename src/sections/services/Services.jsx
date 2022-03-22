@@ -1,6 +1,7 @@
 import {Component } from 'react';
 import Card from '../../components/card/Card'
 
+import './Services.scss';
 class Services extends Component{
     constructor(props){
         super(props)
@@ -8,10 +9,10 @@ class Services extends Component{
 
     render(){
         return (
-            <section className='hero'>
-                <h1 className='text-c7-sky-blue font-bold text-14 pb-c7-12-'>Our services</h1>
-                <p className='font-extrabold text-18'>Lets you maintain inventory control</p>
-                <div>
+            <section className='services px-cr-16 pt-cr-1 pb-cr-40'>
+                <h1 className='services-title text-c7-sky-blue font-bold text-14 pb-cr-12 text-center'>Our services</h1>
+                <p className='font-semibold text-18 text-center'>Lets you maintain inventory control</p>
+                <div class="grid grid-cols-2 gap-4 mt-cr-24">
                     <Card url='test' service='Photo Services'/>
                     <Card url='test' service='Data Collection Services'/>
                     <Card url='test' service='Online Distribution'/>

@@ -1,11 +1,17 @@
-.about {
+.gallery {
+  margin-bottom: 500px;
   &-title::after {
     margin: 0 auto;
     display: block;
     width: 35px;
     height: 2px;
     border-radius: 8px;
-    background-color: #ffff;
+    background-color: #6679F6;
     content: ' ';
+  }
+
+  &-img {
+    height: 251px;
+    object-fit: cover;
   }
 }

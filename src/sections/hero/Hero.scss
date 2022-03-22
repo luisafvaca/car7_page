@@ -1,7 +1,14 @@
 .hero {
     height: 290px;
-
     &-car {
         width: 163px;
     }
-} 
+    &-title::after {
+        display: block;
+        width: 70px;
+        height: 2px;
+        border-radius: 8px;
+        background-color: #6679F6;
+        content: ' ';
+    }
+}

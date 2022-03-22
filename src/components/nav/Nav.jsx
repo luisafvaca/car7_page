@@ -8,7 +8,7 @@ class Nav extends Component{
 
     render(){
         return (
-            <nav className='nav w-full bg-c7-ligth-blue flex items-center'>
+            <nav className='nav w-full bg-c7-ligth-blue flex items-center px-cr-16'>
                 <div className='flex w-full justify-between'>
                     <img className='nav-logo' src={logo} alt="carseven logo" />
                     <div className='nav-menu flex flex-col justify-around'>
